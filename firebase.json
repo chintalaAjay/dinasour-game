@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "JavaScript Dragon Game",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
